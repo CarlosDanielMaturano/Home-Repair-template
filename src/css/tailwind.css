@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=PT+Sans:ital,wght@0,700;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+    @apply px-3 py-6 flex flex-col items-center bg-white gap-5 font-raleway;
+}
+
+.card h3 {
+    @apply text-2xl text-yellow uppercase font-bold font-oswald;
+}
+
+.card p {
+    @apply text-center text-light_gray italic text-[.9rem] break-words mb-3;
+}
+
+.service_card {
+    @apply bg-white p-5 flex flex-col gap-5 shadow-2xl ;
+}
+
+.service_card img {
+    @apply h-52 object-cover self-center;
+}
+
+.service_card h3 {
+    @apply text-yellow uppercase text-2xl font-bold font-oswald;
+}
+
+.service_card p {
+    @apply italic font-raleway leading-6 text-light_gray;
+}
+
+.information-card {
+   @apply flex flex-col gap-4 my-2 p-6;
+}
+
+.information-card h3 {
+    @apply uppercase text-yellow font-bold font-oswald text-2xl tracking-[1px];
+}
+
+.information-card p {
+    @apply text-white italic tracking-[2px];
+}
+
+.info-title {
+    @apply  uppercase font-bold text-xl font-oswald mb-4 md:mb-0;
+}
+
+.info-p {
+    @apply font-raleway leading-6 text-center text-[.9rem] md:text-left;
+}
+
+.form-div {
+    @apply w-[60%]; 
+}
+
+.form-div form {
+    @apply flex flex-col gap-5 my-10 md:px-10 w-full; 
+}
+
+.form-div input, textarea {
+    @apply border-b-2 border-b-black w-full px-2 py-4 outline-none;
+}
+
+.form-div textarea {
+    
+}
